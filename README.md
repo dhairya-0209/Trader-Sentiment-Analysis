@@ -24,7 +24,28 @@ Trades were executed at **higher prices during Greed**, and **lower prices durin
 | `README.md` | Project overview and instructions |
 
 
+## 🧹 Data Cleaning & Preparation
 
+### 1. Trade Data
+- Converted `'Timestamp IST'` to `datetime` format.
+- Extracted date for merging and checked for missing values (none found).
+- Renamed columns for clarity and ensured proper data types.
+
+### 2. Sentiment Data
+- Converted Unix `timestamp` to readable dates.
+- Cleaned sentiment labels (`Fear`, `Greed`, etc.).
+- Removed duplicates and handled missing data.
+
+### 3. Merging
+- Created a `date` column in both datasets.
+- Merged using `pd.merge()` on the `date` field.
+- Combined trade behavior with market sentiment.
+
+### 4. Post-Merge Checks
+- Verified no nulls after merging.
+- Used `df.info()` and plots to inspect results.
+
+ ![Sentiment vs Price](insights.png)
 
 ## 🚀 Tools Used
 
