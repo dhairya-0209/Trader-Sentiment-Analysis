@@ -45,7 +45,13 @@ Trades were executed at **higher prices during Greed**, and **lower prices durin
 - Verified no nulls after merging.
 - Used `df.info()` and plots to inspect results.
 
- ![Sentiment vs Price](insights.png)
+ ## 📊 Visual Insights
+
+### Sentiment vs Price
+![Graph](graph.png)
+
+### Final Analysis Insights
+![Insights](insights.png)
 
 ## 🚀 Tools Used
 
