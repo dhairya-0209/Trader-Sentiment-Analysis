@@ -51,7 +51,8 @@ Trades were executed at **higher prices during Greed**, and **lower prices durin
 ![Graph](graph.png)
 
 ### Final Analysis Insights
-![insights](insights.png)
+![Graph](graph2.png)
+
 
 ## 🚀 Tools Used
 
